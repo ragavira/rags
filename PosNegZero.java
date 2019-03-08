@@ -5,15 +5,14 @@ class PosNegZero
     public static void main(String []s)
     {
         int num;
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter any integer number: ");
+        Scanner sc=new Scanner(System.in):
         num=sc.nextInt();
         if(num>0)
-            System.out.println(num + " is POSITIVE NUMBER.");
+            System.out.println("Positive");
         else if(num<0)
-            System.out.println(num + " is NEGATIVE NUMBER.");
+            System.out.println("Negative");
         else
-            System.out.println("IT's ZERO.");
+            System.out.println("Zero");
          
     }
 }
