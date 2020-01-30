@@ -9,5 +9,7 @@ int main() {
         printf("%.2f is the largest number.", n2);
     if (n3 >= n1 && n3 >= n2)
         printf("%.2f is the largest number.", n3);
+    else 
+        printf("default input");
     return 0;
 }
